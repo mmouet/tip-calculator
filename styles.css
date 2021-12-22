@@ -1,0 +1,48 @@
+/* Michael Mouet - JS Tip Calculator */
+
+body {
+  font-family: Arial;
+}
+
+.section-1 {
+  padding: 15vw 0;
+}
+
+.border {
+  border: 1px solid black;
+  margin: 0 25vw;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.tip-container {
+  justify-content: center;
+}
+
+.total-container {
+  text-align: center;
+}
+
+.button-div { 
+  display: block;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#cost-total {
+  padding: 25px 0 0 0 ;
+}
+
+@media (max-width: 767.98px) {
+
+  .border {
+    margin: 55vw 5vw;
+
+  }
+
+}
